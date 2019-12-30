@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Text for Speech Conversion"
+        android:id="@+id/et1"/>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Click To Convert Text To Speech"
+        android:onClick="onTextToSpeech"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Android Text To Speech Demo"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"/>
+</LinearLayout>
