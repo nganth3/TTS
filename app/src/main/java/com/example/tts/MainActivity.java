@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(MainActivity.this,"Đã nói", Toast.LENGTH_LONG).show();
             CusttomTTS custtomTTS = new CusttomTTS(MainActivity.this);
-            custtomTTS.speechNoidung("ddd");
+            custtomTTS.speechNoidung("ddd ");
 
            }
         });
